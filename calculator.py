@@ -140,7 +140,7 @@ def check_input(inp: str):
         valid = op2 != 0
         if not valid:
             log('Can\'t divide by 0', 'err')
-            return valid
+        return valid
     return True
 
 def log(msg: str, level: str='msg'):
